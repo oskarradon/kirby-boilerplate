@@ -19,7 +19,9 @@
     },
     "require": {
         "php": ">=7.1.0",
-        "getkirby/cms": "^3.0"
+        "getkirby/cms": "^3.0",
+        "pedroborges/kirby-meta-tags": "^2.0",
+        "oblik/kirby-link-field": "^3.0"
     },
     "scripts": {
         "start": [
