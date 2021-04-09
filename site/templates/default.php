@@ -1,8 +1,10 @@
-<main>
-  <h1><?= $page->title() ?></h1>
-  <?php foreach ($page->children()->listed() as $child) : ?>
-    <a href=<?= $child->url() ?>>
-      <?= $child->title() ?>
-    </a>
-  <?php endforeach ?>
-</main>
+<?php snippet('header') ?>
+
+<article>
+  <h1 class="h1"><?= $page->title()->html() ?></h1>
+  <div class="text">
+    <?= $page->text()->kt() ?>
+  </div>
+</article>
+
+<?php snippet('footer') ?>
