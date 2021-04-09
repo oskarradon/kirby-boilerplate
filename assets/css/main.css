@@ -1,4 +1,6 @@
-@import 'vendor/normalize.css';
+@import "vendor/normalize.css";
 
-@import 'global/vars.css';
-@import 'global/typography.css';
+@import "components/header.css";
+
+@import "global/vars.css";
+@import "global/typography.css";
