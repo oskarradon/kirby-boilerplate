@@ -1,11 +1,8 @@
-<?php 
+<?php snippet('header', ['template' => $page->id()]); ?>
 
-snippet('head', ['template' => $page->id()]);
-
-foreach($pages->listed() as $section) {
+<!-- foreach($pages->listed() as $section) {
   snippet($section->uid(), ['data' => $section]);
-} 
+}  -->
 
-snippet('footer'); 
+<?php snippet('footer'); ?>
 
-?>
