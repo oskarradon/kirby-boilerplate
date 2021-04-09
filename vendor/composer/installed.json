@@ -438,6 +438,63 @@
             "install-path": "../league/color-extractor"
         },
         {
+            "name": "medienbaecker/kirby-modules",
+            "version": "2.2.0",
+            "version_normalized": "2.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/medienbaecker/kirby-modules.git",
+                "reference": "9a751011e2f30646a29d29c1457929f96f6ae44c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/medienbaecker/kirby-modules/zipball/9a751011e2f30646a29d29c1457929f96f6ae44c",
+                "reference": "9a751011e2f30646a29d29c1457929f96f6ae44c",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "time": "2021-01-07T08:44:10+00:00",
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "modules"
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Günther",
+                    "email": "mail@medienbaecker.com",
+                    "homepage": "https://www.medienbaecker.com"
+                }
+            ],
+            "description": "Easily add modules to your pages",
+            "keywords": [
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin"
+            ],
+            "support": {
+                "issues": "https://github.com/medienbaecker/kirby-modules/issues",
+                "source": "https://github.com/medienbaecker/kirby-modules/tree/2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://a.paddle.com/v2/click/1129/36156?link=1170",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/medienbaecker/10",
+                    "type": "custom"
+                }
+            ],
+            "install-path": "../../site/plugins/modules"
+        },
+        {
             "name": "michelf/php-smartypants",
             "version": "1.8.1",
             "version_normalized": "1.8.1.0",

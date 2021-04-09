@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '82427e2299ef8425d3a5334c39b8a2843fbfbc7e',
+    'reference' => '9882c080566ffa40d64d24c7b5eacb89c2efbb33',
     'name' => 'getkirby/plainkit',
   ),
   'versions' => 
@@ -54,7 +54,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '82427e2299ef8425d3a5334c39b8a2843fbfbc7e',
+      'reference' => '9882c080566ffa40d64d24c7b5eacb89c2efbb33',
     ),
     'laminas/laminas-escaper' => 
     array (
@@ -89,6 +89,15 @@
       array (
         0 => '*',
       ),
+    ),
+    'medienbaecker/kirby-modules' => 
+    array (
+      'pretty_version' => '2.2.0',
+      'version' => '2.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9a751011e2f30646a29d29c1457929f96f6ae44c',
     ),
     'michelf/php-smartypants' => 
     array (

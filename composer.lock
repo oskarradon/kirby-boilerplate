@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddc3a5f213205fd058043f546e575de1",
+    "content-hash": "8e1e778b4a898c08226ca230681fe724",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -421,6 +421,60 @@
                 "source": "https://github.com/thephpleague/color-extractor/tree/master"
             },
             "time": "2016-12-15T09:30:02+00:00"
+        },
+        {
+            "name": "medienbaecker/kirby-modules",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/medienbaecker/kirby-modules.git",
+                "reference": "9a751011e2f30646a29d29c1457929f96f6ae44c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/medienbaecker/kirby-modules/zipball/9a751011e2f30646a29d29c1457929f96f6ae44c",
+                "reference": "9a751011e2f30646a29d29c1457929f96f6ae44c",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "modules"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Günther",
+                    "email": "mail@medienbaecker.com",
+                    "homepage": "https://www.medienbaecker.com"
+                }
+            ],
+            "description": "Easily add modules to your pages",
+            "keywords": [
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin"
+            ],
+            "support": {
+                "issues": "https://github.com/medienbaecker/kirby-modules/issues",
+                "source": "https://github.com/medienbaecker/kirby-modules/tree/2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://a.paddle.com/v2/click/1129/36156?link=1170",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.paypal.me/medienbaecker/10",
+                    "type": "custom"
+                }
+            ],
+            "time": "2021-01-07T08:44:10+00:00"
         },
         {
             "name": "michelf/php-smartypants",
