@@ -3,9 +3,12 @@
   --bg-dark: #464646;
   --text1-dark: lightgrey;
   --text2-dark: #eeeeee;
+  --text-link-dark: #89b3ff;
   /* light mode */
   --bg-light: #ffffff;
   --text1-light: #4d4d4d;
   --text2-light: #bbbbbb;
   --text-link-light: #0059ff;
+  /* columns */
+  --columns: 3;
 }
