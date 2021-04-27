@@ -15,15 +15,11 @@
       "homepage": "https://oskarradon.com"
     }
   ],
-  "support": {
-    "email": "support@getkirby.com",
-    "issues": "",
-    "forum": "https://forum.getkirby.com",
-    "source": "https://github.com/oskarradon/kirby-boilerplate"
-  },
   "require": {
     "php": ">=7.1.0",
-    "getkirby/cms": "^3.0"
+    "getkirby/cms": "^3.0",
+    "oblik/kirby-link-field": "^3.0",
+    "timoetting/kirby-builder": "^2.0"
   },
   "scripts": {
     "start": [
