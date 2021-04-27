@@ -1,28 +1,37 @@
-title: Default Page
+title: Project
 
 fields:
   mybuilder:
     label: Page Builder
-    type: builder
-    columns: 1 # Optional. If set to 2 or more, the builder blocks will be places in a grid.
+    type: blocks # For more info: https://getkirby.com/docs/reference/panel/fields/blocks
     fieldsets:
-      text:
-        fields:
-          text:
-            label: text
-            type: textarea
-            size: medium
+      - heading
+      - text
+      - image
+      - gallery
+      - video
       info:
+        icon: question
         fields:
           date:
             type: date
             display: D MMMM YYYY
+            width: 1/2
+          client:
+            type: text
+            width: 1/2
+          link:
+            type: url
+            width: 1/2
+          role:
+            type: text
             width: 1/2
           tags:
             type: tags
             options: query
             query: page.index.pluck("tags", ",", true)
       links:
+        icon: attachment
         fields:
           links:
             type: structure
@@ -37,29 +46,16 @@ fields:
                   - tel
                   - email
                 settings: false
-      mediagrid:
-      heromedia:
-      slider:
-      events:
-        label: Events
-        preview:
-          snippet: blocks/events
-          css: /assets/css/blocks/events.css
-        fields:
-          eventlist: # The Builder Field can even be nested!
-            type: builder
-            label: Event List
-            columns: 2
-            fieldsets:
-              event:
-                label: Event
-                fields:
-                  title:
-                    label: Title
-                    type: text
-                  text:
-                    label: Description
-                    type: textarea
-                  date:
-                    label: Date
-                    type: date
+      # slider:
+      #   icon: layers
+      #   fields:
+      #     images:
+      #       type: files
+      #       multiple: true
+      #       layout: cards
+      #       size: tiny
+      #       uploads:
+      #         template: blocks/image
+      #       image:
+      #         ratio: 1/1
+    
