@@ -1,3 +1,11 @@
 :root {
-  /* --yellow:    #FFF851; */
+  /* dark mode */
+  --bg-dark: #464646;
+  --text1-dark: lightgrey;
+  --text2-dark: #eeeeee;
+  /* light mode */
+  --bg-light: #ffffff;
+  --text1-light: #4d4d4d;
+  --text2-light: #bbbbbb;
+  --text-link-light: #0059ff;
 }

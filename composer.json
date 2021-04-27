@@ -1,36 +1,37 @@
 {
-    "name": "getkirby/plainkit",
-    "description": "Kirby Plainkit",
-    "type": "project",
-    "keywords": ["kirby", "cms", "starterkit"],
-    "homepage": "https://getkirby.com",
-    "authors": [
-        {
-            "name": "Bastian Allgeier",
-            "email": "bastian@getkirby.com",
-            "homepage": "https://getkirby.com"
-        }
-    ],
-    "support": {
-        "email": "support@getkirby.com",
-        "issues": "https://github.com/getkirby/starterkit/issues",
-        "forum": "https://forum.getkirby.com",
-        "source": "https://github.com/getkirby/starterkit"
-    },
-    "require": {
-        "php": ">=7.1.0",
-        "getkirby/cms": "^3.0",
-        "pedroborges/kirby-meta-tags": "^2.0",
-        "oblik/kirby-link-field": "^3.0",
-        "medienbaecker/kirby-modules": "^2.2"
-    },
-    "scripts": {
-        "start": [
-            "Composer\\Config::disableProcessTimeout",
-            "@php -S localhost:8000 kirby/router.php"
-        ]
-    },
-    "config": {
-        "optimize-autoloader": true
+  "name": "oskarradon/kirby-boilerplate",
+  "description": "Kirby Boilerplate",
+  "type": "project",
+  "keywords": [
+    "kirby",
+    "cms",
+    "starterkit"
+  ],
+  "homepage": "https://github.com/oskarradon/kirby-boilerplate",
+  "authors": [
+    {
+      "name": "Oskar Radon",
+      "email": "oskarradon@protonmail.com",
+      "homepage": "https://oskarradon.com"
     }
+  ],
+  "support": {
+    "email": "support@getkirby.com",
+    "issues": "",
+    "forum": "https://forum.getkirby.com",
+    "source": "https://github.com/oskarradon/kirby-boilerplate"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "getkirby/cms": "^3.0"
+  },
+  "scripts": {
+    "start": [
+      "Composer\\Config::disableProcessTimeout",
+      "@php -S localhost:8000 kirby/router.php"
+    ]
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
 }
