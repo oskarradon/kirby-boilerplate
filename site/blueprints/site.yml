@@ -14,14 +14,8 @@ columns:
         headline: Published Sections
         type: pages
         status: listed
-        # templates: article
 
-      # ex_drafts:
-      #   extends: sections/shows
-      #   headline: Drafted exhibitions
-      #   status: draft
+      projects:
+        extends: sections/projectlist
 
-      ex_published:
-        extends: sections/projects
-        headline: Exhibitions
         status: listed
