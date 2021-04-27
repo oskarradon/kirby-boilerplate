@@ -2,16 +2,17 @@
 
 ## Description
 
-A simple Kirby CMS boilerplate for portfolio sites. Loosely built upon [HTML5 Boilerplate](https://html5boilerplate.com/).
+A simple Kirby CMS boilerplate for portfolio sites. Loosely built upon [HTML5 Boilerplate](https://html5boilerplate.com/). Uses the [blocks](https://getkirby.com/docs/reference/panel/fields/blocks) field for project pages.
 
 ## Directions
 
-Login with `u: test@test.test` `pw: testtest`.
+`npm install`, then navigate to your development server (ex: `kirby-boilerplate.test/panel`)and login with `u: test@test.test` `pw: testtest`.
 
-## Plugins
+## Plugins & NPM packages used
 
 -   [Link field](https://github.com/OblikStudio/kirby-link-field)
--   More?
+-   [Swiper](https://swiperjs.com/)
+-   [Basic Lightbox](https://basiclightbox.electerious.com/)
 
 ## Tips
 
