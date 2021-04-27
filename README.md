@@ -2,14 +2,18 @@
 
 ## Description
 
-A simple Kirby CMS boilerplate for portfolio sites.
+A simple Kirby CMS boilerplate for portfolio sites. Loosely built upon [HTML5 Boilerplate](https://html5boilerplate.com/).
 
-## Login details
+## Directions
 
-Username: test@test.test
-Passowrd: testtest
+Login with `u: test@test.test` `pw: testtest`
 
-### Tips
+## Plugins
+
+-   [Link field](https://github.com/OblikStudio/kirby-link-field)
+-   [Page builder](https://github.com/TimOetting/kirby-builder)
+
+## Tips
 
 -   Delete test login _after creating another admin login_ and `site/ > config/` for production.
 -   Use [Laravel Valet](https://laravel.com/docs/8.x/valet) for an easy development server.
@@ -21,3 +25,7 @@ Passowrd: testtest
     -   `favicon.ico`
     -   `humans.txt`
     -   `site.webmanifest`
+
+## License
+
+MIT
