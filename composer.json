@@ -1,33 +1,33 @@
 {
-  "name": "oskarradon/kirby-boilerplate",
-  "description": "Kirby Boilerplate",
-  "type": "project",
-  "keywords": [
-    "kirby",
-    "cms",
-    "starterkit"
-  ],
-  "homepage": "https://github.com/oskarradon/kirby-boilerplate",
-  "authors": [
-    {
-      "name": "Oskar Radon",
-      "email": "oskarradon@protonmail.com",
-      "homepage": "https://oskarradon.com"
+    "name": "getkirby/plainkit",
+    "description": "Kirby Plainkit",
+    "type": "project",
+    "keywords": ["kirby", "cms", "starterkit"],
+    "homepage": "https://getkirby.com",
+    "authors": [
+        {
+            "name": "Bastian Allgeier",
+            "email": "bastian@getkirby.com",
+            "homepage": "https://getkirby.com"
+        }
+    ],
+    "support": {
+        "email": "support@getkirby.com",
+        "issues": "https://github.com/getkirby/starterkit/issues",
+        "forum": "https://forum.getkirby.com",
+        "source": "https://github.com/getkirby/starterkit"
+    },
+    "require": {
+        "php": ">=7.1.0",
+        "getkirby/cms": "^3.0"
+    },
+    "scripts": {
+        "start": [
+            "Composer\\Config::disableProcessTimeout",
+            "@php -S localhost:8000 kirby/router.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
     }
-  ],
-  "require": {
-    "php": ">=7.1.0",
-    "getkirby/cms": "^3.0",
-    "oblik/kirby-link-field": "^3.0",
-    "timoetting/kirby-builder": "^2.0"
-  },
-  "scripts": {
-    "start": [
-      "Composer\\Config::disableProcessTimeout",
-      "@php -S localhost:8000 kirby/router.php"
-    ]
-  },
-  "config": {
-    "optimize-autoloader": true
-  }
 }

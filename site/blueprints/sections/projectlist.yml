@@ -1,5 +1,0 @@
-type: pages
-parent: kirby.page("projects")
-headline: Projects
-layout: list
-info: " {{ page.year" }} "
