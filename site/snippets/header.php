@@ -41,6 +41,10 @@
     <link rel="apple-touch-icon" href="icon.png">
     <!-- Place favicon.ico in the root directory -->
 
+    <!-- Vendor stylesheets -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Author stylesheets -->
     <?= css('/assets/css/main.css') ?>
     <?php echo css('@auto') ?> <!-- looks for stylesheet with same name as template in /assets/css/templates -->
 
@@ -52,7 +56,7 @@
     <header>
       <a href="<?= $site->url() ?>" class="logo"><?= $site->title() ?></a>
       <?php
-        $links = $pages->listed();
+        $links = $pages->listed()->not('projects');
         if($links->isNotEmpty()):
       ?>
       <nav id="header-nav">
