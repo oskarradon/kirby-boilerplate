@@ -6,7 +6,7 @@ A simple Kirby CMS boilerplate for portfolio sites. Loosely built upon [HTML5 Bo
 
 ## Directions
 
-Login with `u: test@test.test` `pw: testtest`
+Login with `u: test@test.test` `pw: testtest`.
 
 ## Plugins
 
