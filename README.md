@@ -17,7 +17,7 @@ A simple Kirby CMS boilerplate for portfolio sites. Loosely built upon [HTML5 Bo
 ## Tips
 
 -   Create another admin login and delete test login.
--   Delete `site/ > config/` for production.
+-   Delete `site/ > config/*` for production.
 -   Use [Laravel Valet](https://laravel.com/docs/8.x/valet) for an easy development server.
 -   Generate a 1200 x 630 (1.9:1) image for [Open graph](https://ogp.me/).
 -   and a 1200 x 600 (2:1) image for [Twitter cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards).
