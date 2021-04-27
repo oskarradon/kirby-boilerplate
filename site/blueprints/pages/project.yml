@@ -1,0 +1,65 @@
+title: Default Page
+
+fields:
+  mybuilder:
+    label: Page Builder
+    type: builder
+    columns: 1 # Optional. If set to 2 or more, the builder blocks will be places in a grid.
+    fieldsets:
+      text:
+        fields:
+          text:
+            label: text
+            type: textarea
+            size: medium
+      info:
+        fields:
+          date:
+            type: date
+            display: D MMMM YYYY
+            width: 1/2
+          tags:
+            type: tags
+            options: query
+            query: page.index.pluck("tags", ",", true)
+      links:
+        fields:
+          links:
+            type: structure
+            fields:
+              title:
+                type: text
+              target:
+                type: link
+                label: Link
+                options:
+                  - url
+                  - tel
+                  - email
+                settings: false
+      mediagrid:
+      heromedia:
+      slider:
+      events:
+        label: Events
+        preview:
+          snippet: blocks/events
+          css: /assets/css/blocks/events.css
+        fields:
+          eventlist: # The Builder Field can even be nested!
+            type: builder
+            label: Event List
+            columns: 2
+            fieldsets:
+              event:
+                label: Event
+                fields:
+                  title:
+                    label: Title
+                    type: text
+                  text:
+                    label: Description
+                    type: textarea
+                  date:
+                    label: Date
+                    type: date
