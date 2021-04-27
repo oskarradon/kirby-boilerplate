@@ -11,7 +11,7 @@ Login with `u: test@test.test` `pw: testtest`
 ## Plugins
 
 -   [Link field](https://github.com/OblikStudio/kirby-link-field)
--   [Page builder](https://github.com/TimOetting/kirby-builder)
+-   More?
 
 ## Tips
 
