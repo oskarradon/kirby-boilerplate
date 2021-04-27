@@ -1,10 +1,10 @@
 title: Project
 
 fields:
-  mybuilder:
-    label: Page Builder
+  blocks:
     type: blocks # For more info: https://getkirby.com/docs/reference/panel/fields/blocks
     fieldsets:
+      # overrides to default blocks found in /site/blueprints/blocks
       - heading
       - text
       - image
@@ -17,22 +17,15 @@ fields:
             type: date
             display: D MMMM YYYY
             width: 1/2
+          gap:
+              type: gap
+              width: 1/2
           client:
             type: text
-            width: 1/2
-          link:
-            type: url
             width: 1/2
           role:
             type: text
             width: 1/2
-          tags:
-            type: tags
-            options: query
-            query: page.index.pluck("tags", ",", true)
-      links:
-        icon: attachment
-        fields:
           links:
             type: structure
             fields:
@@ -46,16 +39,19 @@ fields:
                   - tel
                   - email
                 settings: false
-      # slider:
-      #   icon: layers
-      #   fields:
-      #     images:
-      #       type: files
-      #       multiple: true
-      #       layout: cards
-      #       size: tiny
-      #       uploads:
-      #         template: blocks/image
-      #       image:
-      #         ratio: 1/1
-    
+          tags:
+            type: tags
+            options: query
+            query: page.index.pluck("tags", ",", true)
+      slider:
+        icon: layers
+        fields:
+          images:
+            type: files
+            multiple: true
+            layout: cards
+            size: tiny
+            uploads:
+              template: blocks/image
+            image:
+              ratio: 1/1
