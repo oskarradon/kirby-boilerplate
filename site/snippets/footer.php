@@ -2,7 +2,12 @@
       <p class="copyright"><?= $site->copyright() ?></p>
     </footer>
 
-    <?= js('assets/js/site.js') ?>
+    <!-- Vendor JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Author JS -->
+    <?= js('assets/js/vendor/basicLightbox.min.js') ?>
+    <?= js('assets/js/site.js', ['type' => 'module']) ?>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
       window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
