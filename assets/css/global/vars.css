@@ -1,0 +1,19 @@
+:root {
+  /* light mode */
+  --bg: #ffffff;
+  --text1: #4d4d4d;
+  --text2: #bbbbbb;
+  --text-link: #0059ff;
+  /* columns */
+  --columns: 3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* dark mode */
+    --bg: #464646;
+    --text1: lightgrey;
+    --text2: #eeeeee;
+    --text-link: #89b3ff;
+  }
+}
