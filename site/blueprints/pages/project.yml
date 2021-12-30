@@ -10,39 +10,7 @@ fields:
       - image
       - gallery
       - video
-      info:
-        icon: question
-        fields:
-          date:
-            type: date
-            display: D MMMM YYYY
-            width: 1/2
-          gap:
-              type: gap
-              width: 1/2
-          client:
-            type: text
-            width: 1/2
-          role:
-            type: text
-            width: 1/2
-          links:
-            type: structure
-            fields:
-              title:
-                type: text
-              target:
-                type: link
-                label: Link
-                options:
-                  - url
-                  - tel
-                  - email
-                settings: false
-          tags:
-            type: tags
-            options: query
-            query: page.index.pluck("tags", ",", true)
+      - info
       slider:
         icon: layers
         fields:
