@@ -53,18 +53,19 @@
   </head>
 
   <body>
-    <header>
-      <a href="<?= $site->url() ?>" class="logo"><?= $site->title() ?></a>
-      <?php
-        $links = $pages->listed()->not('projects');
-        if($links->isNotEmpty()):
-      ?>
-      <nav id="header-nav">
-        <?php foreach($links as $link): ?>
-          <a<?php e($link->isOpen(), ' class="active"') ?> href="<?= $link->url() ?>">
-            <?= $link->title()->html() ?>
-          </a>
-        <?php endforeach ?>
-      </nav>
-      <?php endif ?>
-    </header>
+    <div id="container">
+      <header>
+        <a href="<?= $site->url() ?>" class="logo"><?= $site->title() ?></a>
+        <?php
+          $links = $pages->listed()->not('projects');
+          if($links->isNotEmpty()):
+        ?>
+        <nav id="header-nav">
+          <?php foreach($links as $link): ?>
+            <a<?php e($link->isOpen(), ' class="active"') ?> href="<?= $link->url() ?>">
+              <?= $link->title()->html() ?>
+            </a>
+          <?php endforeach ?>
+        </nav>
+        <?php endif ?>
+      </header>
