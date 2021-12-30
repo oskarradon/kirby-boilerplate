@@ -5,3 +5,5 @@
 
 @import "global/vars.css";
 @import "global/typography.css";
+
+@import "templates/default.css";
