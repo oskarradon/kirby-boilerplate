@@ -30,6 +30,6 @@ fields:
     size: tiny
     empty: field.blocks.gallery.images.empty
     uploads:
-      template: blocks/image
+      template: galleryfile
     image:
       ratio: 1/1
