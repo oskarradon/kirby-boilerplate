@@ -1,34 +1,34 @@
-<img src="http://getkirby.com/assets/images/github/plainkit.jpg" width="300">
+# Kirby Boilerplate
 
+## Description
 
-**Kirby: the CMS that adapts to any project, loved by developers and editors alike.**  
-The Plainkit is a minimal Kirby setup with the basics you need to start a project from scratch. It is the ideal choice if you are already familiar with Kirby and want to start step-by-step.
+A simple Kirby CMS boilerplate for portfolio sites. Loosely built upon [HTML5 Boilerplate](https://html5boilerplate.com/). Uses the [blocks](https://getkirby.com/docs/reference/panel/fields/blocks) field for project pages.
 
-You can learn more about Kirby at [getkirby.com](https://getkirby.com).
+## Directions
 
-### Try Kirby for free  
-You can try Kirby and the Plainkit on your local machine or on a test server as long as you need to make sure it is the right tool for your next project. … and when you’re convinced, [buy your license](https://getkirby.com/buy).
+`npm install`, then navigate to your development server (ex: `kirby-boilerplate.test/panel`)and login with `u: test@test.test` `pw: testtest`.
 
-### Get going
-Read our guide on [how to get started with Kirby](https://getkirby.com/docs/guide/quickstart).
+## Plugins & NPM packages used
 
-You can [download the latest version](https://github.com/getkirby/plainkit/archive/master.zip) of the Plainkit.  
-If you are familiar with Git, you can clone Kirby's Plainkit repository from Github.
+-   [Link field](https://github.com/OblikStudio/kirby-link-field)
+-   [Swiper](https://swiperjs.com/)
+-   [Basic Lightbox](https://basiclightbox.electerious.com/)
 
-    git clone https://github.com/getkirby/plainkit.git
+## Tips
 
-## What's Kirby?
-- **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
-- **[Try it](https://getkirby.com/try)** – Take a test ride with our online demo. Or download one of our kits to get started.
-- **[Documentation](https://getkirby.com/docs/guide)** – Read the official guide, reference and cookbook recipes.
-- **[Issues](https://github.com/getkirby/kirby/issues)** – Report bugs and other problems.
-- **[Feedback](https://feedback.getkirby.com)** – You have an idea for Kirby? Share it.
-- **[Forum](https://forum.getkirby.com)** – Whenever you get stuck, don't hesitate to reach out for questions and support.
-- **[Discord](https://chat.getkirby.com)** – Hang out and meet the community.
-- **[Twitter](https://twitter.com/getkirby)** – Spread the word.
-- **[Instagram](https://www.instagram.com/getkirby/)** – Share your creations: #madewithkirby.
+-   Create another admin login and delete test login.
+-   Delete `site/ > config/*` for production.
+-   Use [Laravel Valet](https://laravel.com/docs/8.x/valet) for an easy development server.
+-   Generate a 1200 x 630 (1.9:1) image for [Open graph](https://ogp.me/).
+-   and a 1200 x 600 (2:1) image for [Twitter cards](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards).
+-   Update the info in the `<head>` in `site/ > snippets/ > header/`.
+-   Change the color scheme in `assets/css/global/vars.css`.
+-   Sign up for [Google Analytics](https://analytics.withgoogle.com/) or delete the script in `site/ > snippets/ > footer/`.
+-   Update these files:
+    -   `favicon.ico`
+    -   `humans.txt`
+    -   `site.webmanifest`
 
----
+## License
 
-© 2009-2020 Bastian Allgeier (Bastian Allgeier GmbH)  
-[getkirby.com](https://getkirby.com) · [License agreement](https://getkirby.com/license)
+MIT
